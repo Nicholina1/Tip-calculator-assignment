@@ -32,6 +32,6 @@ charge_of_food = float(input('Charge for food = $'))
 tip = (18/100)* charge_of_food
 sales_tax = (7/100)* charge_of_food
 grand_total = charge_of_food + tip + sales_tax  
-print(f'Tip = ${tip:1.2f}')
-print(f'Sales tax = ${sales_tax:1.2f}')
-print(f'Grand Total = ${grand_total:1.2f}')
+print(f'Tip = ${tip:.2f}')
+print(f'Sales tax = ${sales_tax:.2f}')
+print(f'Grand Total = ${grand_total:.2f}')
